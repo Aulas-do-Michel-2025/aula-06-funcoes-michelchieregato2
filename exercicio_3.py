@@ -9,3 +9,8 @@ Exemplo de uso:
 >>> 100
 """
 
+def calcular_media(lista):
+    soma = 0
+    for valor in lista:
+        soma += valor
+    return soma / len(lista)
