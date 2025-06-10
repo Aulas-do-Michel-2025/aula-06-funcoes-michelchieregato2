@@ -17,3 +17,4 @@ def verificar_nota(nota):
     if nota >=3 and nota <= 5:
         return "Recuperação"
     return "Reprovado"
+
